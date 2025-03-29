@@ -110,3 +110,12 @@ button.navbar-toggler:focus {
 .progress-bar-bg {
   background-color: #8AB2A6;
 }
+
+
+
+
+/* Footer */
+footer {
+  background-color: #181C14;
+  color: #FFFFFF;
+}
