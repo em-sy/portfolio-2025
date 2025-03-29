@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2.h2 {
+  color: #181C14;
+}
+
+h4.h4 {
+  color: #8AB2A6;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #181C14;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #8AB2A6;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand span {
+  color: #F6F1DE;
+}
+
+.navbar-brand:hover, .navbar-brand:hover span{
+  color: #8AB2A6;
+  transform: scale(1.03);
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.nav-pills .nav-link:hover, .nav-pills .nav-link.active {
+  color: #8AB2A6;
+  background-color: transparent;
+}
+
+.nav-link:focus {
+  color: #FFFFFF; 
+}
+
+.navbar-brand:focus {
+  color: #8AB2A6; 
+}
+
+button.navbar-toggler {
+  border: none;
+  color: #FFFFFF;
+}
+
+button.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 27px;
+  }
+}
+
+/* Hero */
+
+#portflio-hero {
+  margin-top: 71px;
+}
+
+.portflio-hero-buttons .btn-primary {
+  border: 1px solid #181C14;
+  background-color: #181C14;
+  color: #FFFFFF;
+}
+
+.portflio-hero-buttons .btn-outline-secondary {
+  border: 1px solid #181C14;
+  background-color: #FFFFFF;
+  color: #181C14;
+}
+
+.portflio-hero-buttons .btn-primary:hover, .portflio-hero-buttons .btn-outline-secondary:hover {
+  border: 1px solid #8AB2A6;
+  background-color: #8AB2A6;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  #portflio-hero {
+    margin-top: 66.5px;
+  }
+}
+
+/* Skills */
+
+.badge-bg {
+  background-color: #3C3D37;
+}
+
+.progress-bar-bg {
+  background-color: #8AB2A6;
+}
