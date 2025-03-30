@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-  <nav id="portfolio-navbar-container" class="navbar navbar-expand-xl navbar-dark" aria-label="navbar">
+  <nav id="portfolio-navbar-container" class="navbar navbar-expand-xl navbar-dark z-3" aria-label="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#portflio-hero">EM<span>SY</span></a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav-bar" aria-controls="portfolio-nav-bar" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
         <div class="py-3 mb-1">
           <div class="d-lg-flex justify-content-between align-items-start">
             <div>
-              <h2 class="h2 fw-bold mb-2">Full Stack / Web Developer</h2>
+              <h2 class="h2 fw-bold mb-2">Web Developer</h2>
               <h4 class="h4">MegaMobile, Inc.</h4>
             </div>
             <p class="text-secondary-emphasis fw-medium fs-5 mb-2">February 2025 - Present</p>
@@ -72,7 +72,7 @@
         <div class="py-3 mb-1">
           <div class="d-lg-flex justify-content-between align-items-start">
             <div>
-              <h2 class="h2 fw-bold mb-2">Front-End / Web Developer</h2>
+              <h2 class="h2 fw-bold mb-2">Web Developer</h2>
               <h4 class="h4">Collabera Technologies Private Limited Inc.</h4>
             </div>
             <p class="text-secondary-emphasis fw-medium fs-5 mb-2">July 2023 - January 2024</p>
@@ -195,7 +195,27 @@
     <div id="projects" class="container col-xxl-8 px-4 py-5">
       <div class="py-5">
         <h1 class="display-4 fw-bold lh-1 border-bottom py-3 mb-3">Projects</h1>
-        
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./public/images/projects/legitas-admin.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Legislative Information Tracking and Administration System - Admin Dashboard</h5>
+                <p class="card-text">This is the admin panel/dashboard of LegITAS, a system created for managing and storing draft and approved City Ordinances and Resolutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./public/images/projects/legitas-website.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Legislative Information Tracking and Administration System - Website</h5>
+                <p class="card-text">This is the LegITAS website, designed for public or citizen use. It provides easier access to and viewing of approved City Ordinances and Resolutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
