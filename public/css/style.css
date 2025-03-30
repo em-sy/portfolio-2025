@@ -111,8 +111,24 @@ button.navbar-toggler:focus {
   background-color: #8AB2A6;
 }
 
+/*  */
 
+#contact h2 {
+  color: #8AB2A6;
+}
 
+#contact a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #8AB2A6;
+}
+
+#contact .bg-contact-jumbotron {
+  background: #3E3F5B;
+}
 
 /* Footer */
 footer {
