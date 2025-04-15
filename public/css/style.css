@@ -111,7 +111,18 @@ button.navbar-toggler:focus {
   background-color: #8AB2A6;
 }
 
-/*  */
+/* Projects */
+
+#projects .row .card {
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; 
+}
+
+#projects .row .card:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Contact */
 
 #contact h2 {
   color: #3E3F5B;
