@@ -146,3 +146,16 @@ footer {
   background-color: #181C14;
   color: #FFFFFF;
 }
+
+/* Project Viewer */
+#project-viewer {
+  margin-top: 71px;
+  min-height: 81vh;
+  padding-top: 4rem;
+}
+
+@media (max-width: 767px) {
+  #project-viewer {
+    margin-top: 66.5px;
+  }
+}
